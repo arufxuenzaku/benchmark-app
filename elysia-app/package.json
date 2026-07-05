@@ -1,0 +1,12 @@
+{
+  "name": "elysia-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "elysia": "^1.0.21"
+  },
+  "devDependencies": {
+    "bun-types": "^1.1.8"
+  }
+}

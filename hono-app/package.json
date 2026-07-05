@@ -1,0 +1,12 @@
+{
+  "name": "hono-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "hono": "^4.4.2"
+  },
+  "devDependencies": {
+    "bun-types": "^1.1.8"
+  }
+}

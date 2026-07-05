@@ -1,0 +1,42 @@
+services:
+  laravel-app:
+    build:
+      context: ./laravel-app
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8000"
+    restart: always
+    environment:
+      - APP_ENV=production
+
+  hono-app:
+    build:
+      context: ./hono-app
+      dockerfile: Dockerfile
+    ports:
+      - "8002:8000"
+    restart: always
+
+  elysia-app:
+    build:
+      context: ./elysia-app
+      dockerfile: Dockerfile
+    ports:
+      - "8003:8000"
+    restart: always
+
+  go-app:
+    build:
+      context: ./go-app
+      dockerfile: Dockerfile
+    ports:
+      - "8004:8000"
+    restart: always
+
+  nestjs-app:
+    build:
+      context: ./nestjs-app
+      dockerfile: Dockerfile
+    ports:
+      - "8005:8000"
+    restart: always
